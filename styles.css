@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;                 /* Enable Flexbox layout */
+  flex-direction: row;           /* Arrange items in a row */
+  justify-content: space-evenly; /* Evenly space out all items */
+  flex-wrap: wrap;               /* Move extra items to next row instead of squashing */
+}
+
+/* Optional: just to make items look nice (not required, but helpful for testing) */
+.item {
+  background-color: lightblue;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+}
